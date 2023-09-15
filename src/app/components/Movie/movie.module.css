@@ -1,0 +1,14 @@
+.movie {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+.movie h2 {
+    margin-bottom: 16px;
+}
+.movie img {
+    max-width: 100px;
+}
